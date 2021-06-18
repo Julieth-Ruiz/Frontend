@@ -1,9 +1,14 @@
 .custom-header {
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/fondo\ 2.jpg);
     background-size: cover;
 }
 
 .custom-header img {
+
+    border-top-left-radius: 10% 30%;
+    border-top-right-radius: 10% 30%;
+    border-bottom-right-radius: 10% 15%;
+    border-bottom-left-radius: 10% 15%;
     height: 147px;
     width: 125px;
     display: block;
