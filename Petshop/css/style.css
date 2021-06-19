@@ -1,0 +1,100 @@
+#top {
+    background-color: #222222;
+    color: #F3F3F3;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    max-width: 500px;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+}
+
+.box li{
+list-style: none;
+}
+
+#menu {
+
+    top: 20px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    
+}
+
+#menu img {
+
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#list li{
+
+    display: inline;
+    list-style-type: none;
+    padding-left:3px;
+    padding-right:3px;
+    color: #F3F3F3;
+    margin-right: 30px;
+}
+
+#list i {
+
+    margin-right: 4px;
+
+}
+
+.banner {
+    background-image: url(../img/PORTADA.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    display:inline-block;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+
+#icon img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+#icon h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#icon p {
+    text-align: center;
+    font-family: 'Roboto', sans-serifl;
+    font-size: 24px;
+    word-spacing: 50px;
+}
+
+.block {
+    display: inline-block;
+}
