@@ -1,0 +1,140 @@
+
+
+#header {
+    background-color: black;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image2 {
+    width: 150px;
+    height: 30px;
+    padding-bottom: 25px;
+}
+
+#menu li {
+
+    display: inline;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    
+}
+
+#menu {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.contain {
+   padding-top: 50px;
+   padding-bottom: 60px;
+   padding-left: 30px;
+   padding-right: 30px;   
+   display: flex;
+   background-color: #E5E5E5;
+   
+}
+
+.banner {
+    position: relative;
+    width: 48%;
+    margin-right: 20px;
+
+}
+
+.text {
+    width: 48%;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text h2 {
+    color: red;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.image3 {
+    position: relative;
+    width: 100%;
+}
+
+.textdescription {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-left: 20px;
+
+}
+.send {
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #FC200C;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.word {
+    color: white;
+}
+
+.list {
+    
+    font-family: 'Roboto', sans-serif;
+    width: 48%;
+    font-size: 18px;
+
+}
+
+.list ol {
+    text-align: left;
+    font-weight: bold;
+}
+
+.banner2 {
+    width: 48%;
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: black;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.image5 {
+
+    padding-top: 40px;
+
+}
+
+.image6 {
+    width: 100px;
+    height: 20px;
+    
+}
