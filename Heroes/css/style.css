@@ -17,6 +17,12 @@
     top: 0px;
 }
 
+.title h2 {
+    font-size: 15px;
+    color: white;
+}
+
+
 #section {
     display: flex;
     justify-content: center;
@@ -122,4 +128,98 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding: 7px;
+    text-align: center;
 }
+
+.contain {
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 90px;
+
+}
+
+.contain h1 {
+       font-size: 50px;
+}
+
+.input {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.button1 {
+    background-color: #1CD1B0;
+    width: 100%;
+    bottom: 20px;
+    right: 50%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+#form {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 500px;
+}
+
+ 
+.finaltext a {
+    color: blue;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+.finaltext p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.finaltext {
+    padding-bottom: 130px;
+}
+
+.button2 {
+    background-color: grey;
+    color: white;
+    width: 48%;
+    bottom: 20px;
+    right: 50%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .button3 {
+    background-color: #1CD1B0;
+    width: 48%;
+    bottom: 20px;
+    right: 50%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+
+  .buttons {
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+      
+  }

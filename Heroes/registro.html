@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ef8319f83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <header id="top">
+        <div class="header">
+            <p>20% de descuento en todos los productos</p>   
+        </div>
+    
+        <div class="title">
+            <h2>Nombre Tienda</h2>
+        </div>
+    </header>
+    <main class="contain">
+            <form id="form" action="#">
+            <h1>Registro</h1>
+            <label for="name-surname"></label>
+            <input class="input" type="text" id="name-surname" name="name-surname" placeholder="Nombre y Apellido" required>
+            
+            <label for="email"></label>
+            <input class="input" type="email" id="email" pattern=".+@gmail\.com" placeholder="Correo Electrónico" required>
+            
+            <label for="password"></label>
+            <input class="input" type="password" id="password" name="password" placeholder="Contraseña" required>
+
+            <label for="country"></label>
+            <select class="input" name="country" id="country">
+                <option value="" selected disabled hidden>País</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Brasil">Brasil</option>
+            </select>
+            <div class="buttons">
+                <input class="button2" type="reset" value="Resetear">
+                <input class="button3" type="submit" value="Registrar">
+            </div>
+        </form>
+    </main>
+    <div class="finaltext"> 
+        <p><a href="#">¿Ya tenés una cuenta?</a>  Ingresá</p>
+    </div>
+
+    <footer id="footer">
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

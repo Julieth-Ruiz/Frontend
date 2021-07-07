@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Petshop"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pizza"
+	}
+}
