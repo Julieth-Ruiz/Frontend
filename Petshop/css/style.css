@@ -54,6 +54,10 @@ list-style: none;
     margin-right: 30px;
 }
 
+#list li ::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f1b0"
+}
+
 #list i {
 
     margin-right: 4px;
