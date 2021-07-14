@@ -55,13 +55,11 @@ nav ul li a:before{
     width: 0%;
     height: 4px;
     transition: all 350ms;
-    /* alto y ancho=0 */
-    /* transition: ; */
+    
 }
 nav ul li a:hover::before{
     width: 100%;
     
-    /* ancho final */
 }
 
 /* Barra redes */
