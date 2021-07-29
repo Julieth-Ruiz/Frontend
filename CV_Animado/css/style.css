@@ -1,0 +1,175 @@
+#top{
+  display: flex;
+  justify-content: space-between;
+  background-color: #efafa7
+  
+}
+
+.header{
+  
+    font-size: 20px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    padding-left: 2rem;
+    font-weight: bold;
+    }
+
+
+   .respmenu {
+    color: white;
+    position: relative; 
+    top: 30px;
+    
+}
+
+/* Iconos */
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    position: absolute;  
+    box-sizing: border-box;
+    right: 2rem;
+    width: 2rem;
+    height: 4rem;  
+}
+
+.respmenu .fa-bars, .respmenu .fa-times {
+    font-size: 25px;
+    pointer-events: none;
+}
+
+.respmenu input[type="checkbox"] {
+    opacity: 0; 
+}
+
+.respmenu nav {
+    display: none;
+}
+
+.respmenu input:checked ~ nav {
+    display: block;
+}
+
+.respmenu input:checked ~ .fa-bars {
+    display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    margin-top: 1.8rem;
+}
+
+/* Opciones lista */
+
+.respmenu a { 
+    text-decoration: none;
+    display: block;
+    padding: 0.4rem 0.8rem;
+    border: 0.15rem solid white;
+    border-radius: 0.6rem;
+    width: 7rem;
+    background: #c88b84;
+    color: white;
+    font-weight: 500px;
+    font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+   
+#section {
+  background-image: url(../img/fondo-floral-acuarela-pintada-mano_23-2149017913.jpg);
+  background-size: cover;
+  padding-top: 50px; 
+  padding-bottom: 50px;
+
+}
+
+.social {
+	position: fixed; 
+	left: -30px; 
+	top: calc(50% - 90px); /* Para que quede centrada le decimos que al 50% del alto le reste la mitad del alto de la barra: 16px de la letra + 10 padding-top + 10padding-bottom */
+	z-index: 2000; 
+}
+.social ul {
+	list-style: none;
+}
+
+.social ul li a {
+    display: inline-block; /* porque le quiero agregar padding */
+    color:var(--secondary-color);
+    background: var(--primary-color);
+    padding: 10px 15px;
+    text-decoration: none;
+    transition:all 500ms ease;
+}
+
+.social ul li .icon-facebook {background:#bc8f8f;} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {background: #bc8f8f;}
+.social ul li .icon-instagram {background: #bc8f8f;}
+.social ul li .icon-whatsapp {background: #bc8f8f;}
+.social ul li .icon-mail {background: #bc8f8f;}
+
+.social ul li a:hover{
+	padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  
+    
+}
+
+.image {
+  margin-left: 30px;
+    
+}
+
+
+  .options p{
+    
+    margin-bottom: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #b0904f;
+    text-align: center;
+    }
+  
+  .options {
+    text-align: center;
+  }
+
+
+#footer {
+
+    background-color:#efafa7;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 14px;
+    padding: 7px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+  #section {
+      height: 300px;
+      padding-top: 150px;
+      padding-left: 70px;
+      padding-right: 30px;
+      
+  }
+  .image {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 50px 50px 40px 100px;
+  grid-row-gap: 5px;
+  grid-column-gap: 20px;  
+  margin-left: 90px;
+  
+  }
+  
+  .options p {
+    text-align: center;
+  }
+
+
+}
