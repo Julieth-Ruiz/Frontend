@@ -91,7 +91,7 @@ ul {
 .social {
 	position: fixed; 
 	left: -30px; 
-	top: calc(50% - 90px); /* Para que quede centrada le decimos que al 50% del alto le reste la mitad del alto de la barra: 16px de la letra + 10 padding-top + 10padding-bottom */
+	top: calc(48% - 90px); /* Para que quede centrada le decimos que al 50% del alto le reste la mitad del alto de la barra: 16px de la letra + 10 padding-top + 10padding-bottom */
 	z-index: 2000; 
 }
 .social ul {
@@ -124,12 +124,62 @@ ul {
     
 }
 
+.imagen1 {
+  border-radius: 150px;
+}
 
-  .options p{
-    
-    margin-bottom: 30px;
+.text {
+    color: #b0904f;
     font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.text1 {
+  color: #b0904f;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+}
+
+.text1 p:hover {
+  color: #b0904f;
+  animation: none;
+  }
+
+.text1 h2:hover {
+    color: #b0904f;
+    animation: pulse  ; 
+    animation-duration: 2s;
+    }
+
+p:hover {
+  color: #705451;
+  animation: pulse  ; 
+  animation-duration: 2s;
+}
+
+img:hover {
+  animation: bounce  ; 
+  animation-duration: 2s;}
+
+.text1 img:hover {
+    animation: none;
+    }
+
+.kira img:hover {
+      animation: none;
+      }
+
+.options p{
+    
+    margin-bottom: 27px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
     color: #b0904f;
     text-align: center;
     }
@@ -167,9 +217,23 @@ ul {
   
   }
   
-  .options p {
-    text-align: center;
+  .text1 p {
+    padding-left: 70px;
+    padding-right: 70px;
+    
   }
 
+    .text1 {
+    margin-top: -60px;
+  }
 
+  .kira {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 50px 50px 40px 100px;
+  grid-row-gap: 5px;
+  grid-column-gap: 20px;  
+  margin-left: 90px;
+  margin-top: 40px;
+}
 }
